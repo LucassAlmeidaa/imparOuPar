@@ -1,0 +1,32 @@
+body{
+    background-color: whitesmoke;
+}
+.main{
+    width: 700px;
+    background-color: cadetblue;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px 500px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: rgb(3, 3, 46);
+}
+
+.main h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.botao{
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(143, 226, 143);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.botao:hover{
+    transform: scale(1.05);
+}
