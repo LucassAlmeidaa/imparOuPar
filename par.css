@@ -30,3 +30,12 @@ body{
 .botao:hover{
     transform: scale(1.05);
 }
+
+/*celulares*/
+
+@media (max-width: 480px){
+    .main{
+        width: 20em;
+        margin-top: 15em;
+    }
+}
